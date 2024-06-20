@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* montserrat raleway roboto 폰트*/
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* Fontawesome 4.7 */
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+/* Noto Sans KR 폰트 */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,700,900&display=swap");
+/* 모든폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monoton&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* XEION CDN */
+@import url("http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css");
+/* Bootstrap Icons */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+/* Lato 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+/* Playfair 폰트 */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+/* Open Sans 폰트*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* 눈누 폰트 지마켓 */
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/* Default CSS */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  line-height: 1.6em;
+  height: 100vh;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+.container header {
+  width: 100%;
+  border-bottom: 1px solid #eee;
+  height: 60px;
+  text-align: center;
+  background-color: #fff;
+  line-height: 80px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container section {
+  width: 500px;
+}
+.container section .login {
+  text-align: center;
+}
+.container section .login h2 {
+  font-size: 35px;
+  font-weight: 500;
+}
+.container section .login .btn {
+  display: block;
+  width: 350px;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+  color: #fff;
+  margin-bottom: 10px;
+}
+.container section .login .btn:nth-of-type(1) {
+  background: #fff url(./images/logo-mobile.png) no-repeat center left 10px;
+  color: #222;
+}
+.container section .login .btn:nth-of-type(2) {
+  background: #9FA1AD url(./images/logo-email.png) no-repeat center left 15px;
+}
+.container section .login .btn:nth-of-type(3) {
+  background: #3FD631 url(./images/logo-naver.png) no-repeat center left 15px;
+}
+.container section .login .btn:nth-of-type(4) {
+  background: #0076FE url(./images/logo-facebook.png) no-repeat center left 15px;
+}
+.container section .login .btn:nth-of-type(5) {
+  background: #30CA4F url(./images/logo-line.png) no-repeat center left 15px;
+}
+.container section .login .login-footer {
+  text-align: left;
+  padding-left: 70px;
+  font-size: 14px;
+  font-weight: 150;
+}
+.container section .login .login-footer a {
+  font-weight: 800;
+}
